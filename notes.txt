@@ -1,0 +1,41 @@
+
+https://github.com/UB-Mannheim/tesseract/wiki binarye
+pipenv install PyAutoGUI
+pipenv install pillow
+pipenv install opencv-python *for confidence
+
+pipenv install pytesseract
+ 
+pipenv shell / pipenv run.
+
+
+
+
+magick all0.png -crop +266+158 -crop -70-63 all1.png
+magick all1.png -crop 6x4-53-61@\! +repage tile-%d.png
+
+
+Add Tesseract to executable
+https://stackoverflow.com/questions/54993317/how-to-compile-python-code-with-pytesseract-to-exe
+
+
+Page segmentation modes:
+  0    Orientation and script detection (OSD) only.
+  1    Automatic page segmentation with OSD.
+  2    Automatic page segmentation, but no OSD, or OCR.
+  3    Fully automatic page segmentation, but no OSD. (Default)
+  4    Assume a single column of text of variable sizes.
+  5    Assume a single uniform block of vertically aligned text.
+  6    Assume a single uniform block of text.
+  7    Treat the image as a single text line.
+  8    Treat the image as a single word.
+  9    Treat the image as a single word in a circle.
+ 10    Treat the image as a single character.
+ 11    Sparse text. Find as much text as possible in no particular order.
+ 12    Sparse text with OSD.
+ 13    Raw line. Treat the image as a single text line,
+                        bypassing hacks that are Tesseract-specific.
+
+Transferring information to Kornblume planner
+localStorage.setItem('warehouse') = {data:[ {Material, Quantity, Category} ]}
+{"data":[{"Material":"Dust","Quantity":0,"Category":"Base Item"},{"Material":"Sharpodonty","Quantity":0,"Category":"Base Item"},{"Material":"Crystal Casket","Quantity":0,"Category":"Resonate Material"},{"Material":"Sonorous Knell","Quantity":0,"Category":"Resonate Material"},{"Material":"Brief Cacophony","Quantity":0,"Category":"Resonate Material"},{"Material":"Moment of Dissonance","Quantity":0,"Category":"Resonate Material"},{"Material":"Serpent Scepter","Quantity":0,"Category":"Build Material"},{"Material":"Golden Fleece","Quantity":0,"Category":"Build Material"},{"Material":"Mistilteinn","Quantity":0,"Category":"Build Material"},{"Material":"Fruit of Good and Evil","Quantity":0,"Category":"Build Material"},{"Material":"Tome of Beastly Thirst","Quantity":0,"Category":"Insight Material"},{"Material":"Tome of Plantal Vimen","Quantity":0,"Category":"Insight Material"},{"Material":"Tome of Starlit Ascent","Quantity":0,"Category":"Insight Material"},{"Material":"Tome of Mineral Wealth","Quantity":0,"Category":"Insight Material"},{"Material":"Golden Compass","Quantity":0,"Category":"Build Material"},{"Material":"Platinum Ouija","Quantity":0,"Category":"Build Material"},{"Material":"Watch Core","Quantity":0,"Category":"Build Material"},{"Material":"Glowing Mothwing","Quantity":0,"Category":"Build Material"},{"Material":"Murmur of Insanity","Quantity":0,"Category":"Build Material"},{"Material":"Silver Bullet","Quantity":0,"Category":"Build Material"},{"Material":"Wyrmling Skeleton","Quantity":0,"Category":"Build Material"},{"Material":"Incorrupt Monkeypaw","Quantity":0,"Category":"Build Material"},{"Material":"Bogeyman","Quantity":0,"Category":"Build Material"},{"Material":"Scroll of Beastly Thirst","Quantity":0,"Category":"Insight Material"},{"Material":"Scroll of Plantal Vimen","Quantity":0,"Category":"Insight Material"},{"Material":"Scroll of Starlit Ascent","Quantity":0,"Category":"Insight Material"},{"Material":"Scroll of Mineral Wealth","Quantity":0,"Category":"Insight Material"},{"Material":"Golden Beetle","Quantity":0,"Category":"Build Material"},{"Material":"Clawed Pendulum","Quantity":0,"Category":"Build Material"},{"Material":"Goose Neck","Quantity":0,"Category":"Build Material"},{"Material":"Winged Key","Quantity":0,"Category":"Build Material"},{"Material":"Prophetic Bird","Quantity":0,"Category":"Build Material"},{"Material":"Holy Silver","Quantity":0,"Category":"Build Material"},{"Material":"Bifurcated Skeleton","Quantity":0,"Category":"Build Material"},{"Material":"Salted Mandrake","Quantity":0,"Category":"Build Material"},{"Material":"Biting Box","Quantity":0,"Category":"Build Material"},{"Material":"Page of Beastly Thirst","Quantity":0,"Category":"Insight Material"},{"Material":"Page of Plantal Vimen","Quantity":0,"Category":"Insight Material"},{"Material":"Page of Starlit Ascent","Quantity":0,"Category":"Insight Material"},{"Material":"Page of Mineral Wealth","Quantity":0,"Category":"Insight Material"},{"Material":"Solidus","Quantity":0,"Category":"Build Material"},{"Material":"Perpetual Cog","Quantity":0,"Category":"Build Material"},{"Material":"Cicada Wings","Quantity":0,"Category":"Build Material"},{"Material":"Spell of Fortune","Quantity":0,"Category":"Build Material"},{"Material":"Rough Silver Ingot","Quantity":0,"Category":"Build Material"},{"Material":"Esoteric Bones","Quantity":0,"Category":"Build Material"},{"Material":"Milled Magnesia","Quantity":0,"Category":"Build Material"},{"Material":"Liquefied Terror","Quantity":0,"Category":"Build Material"},{"Material":"Spell of Banishing","Quantity":0,"Category":"Build Material"},{"Material":"Silver Ore","Quantity":0,"Category":"Build Material"},{"Material":"Shattered Bones","Quantity":0,"Category":"Build Material"},{"Material":"Magnesia Crystal","Quantity":0,"Category":"Build Material"},{"Material":"Trembling Tooth","Quantity":0,"Category":"Build Material"}]}
